@@ -19,6 +19,13 @@ public class Main
         Cat topcat = new Cat();
         topcat.speak();
 
+        int i;
+
+        for(i=9; i>-1; i--){
+            topcat.kill();
+        }
+        
+
         Main main = new Main();
 		main.helloProcessing();
         
